@@ -31,7 +31,7 @@ export default function useClientes() {
     obterTodos()
   }
 
-  function novoCliente() {
+  function criarCliente() {
     setCliente(Cliente.vazio())
     exibirFormulario()
   }
@@ -46,7 +46,7 @@ export default function useClientes() {
     exibirTabela,
     cliente,
     clientes,
-    novoCliente,
+    criarCliente,
     salvarCliente,
     excluirCliente,
     selecionarCliente,
